@@ -5,8 +5,12 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Rocks"
+      href: rocks.html
     - text: "About"
       href: about.html
+    - text: "Notes"
+      href: notes.html
 output:
   html_document:
     theme: cosmo
