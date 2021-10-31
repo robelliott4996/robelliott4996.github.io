@@ -1,5 +1,6 @@
 ---
-title: "My Website"
+title: "My (Robert) Website"
 ---
 
-Hello, Website!
+Hello, World.
+This will serve as a repository of interesting media I've collected, CV's, resumes, possibly even a blog or two.

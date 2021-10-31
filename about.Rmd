@@ -3,4 +3,4 @@ title: "About This Website"
 
 ---
 
-More about this website.
+Created by Robert Elliott initially for an R class in Fall of 2021.
