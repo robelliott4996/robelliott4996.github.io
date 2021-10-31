@@ -6,4 +6,7 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-output_dir: "."
+output_dir:
+  html_document:
+    theme: cosmo
+    hightlight: textmate
