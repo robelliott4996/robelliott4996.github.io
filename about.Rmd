@@ -1,6 +1,9 @@
 ---
-title: "About This Website"
+title: "About This Website and Me"
 
 ---
 
 Created by Robert Elliott initially for an R class in Fall of 2021.
+
+I'm a second year Masters student at the University of New England. My project is a combination of bioinformatics and wetlab biochemistry to identify the protein target of an integral membrane protein called Palmitoyl Acyltransferase 14, or pat14 for short.
+
