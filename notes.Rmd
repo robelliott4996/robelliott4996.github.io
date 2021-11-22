@@ -8,3 +8,5 @@ The one fucking thing that I couldn't find mentioned directly.
 When using rmarkdown to make websites with github, you need to Build the website in RStudio and upload those files too.
 
 Things to add to this website include: book recommendations, a CV page, pictures of rocks.
+
+My R Final Project as a separate page for viewing.
