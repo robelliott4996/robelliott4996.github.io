@@ -11,6 +11,8 @@ navbar:
       href: about.html
     - text: "Notes"
       href: notes.html
+    - text: "Final Project"
+      href: finalproj_re1032.html
 output:
   html_document:
     theme: cosmo
