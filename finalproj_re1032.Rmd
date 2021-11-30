@@ -6,6 +6,7 @@ title: "finalproj_re1032"
 ```{r setup, include=FALSE}
 library(readxl)
 library(ggplot2)
+library(knitr)
 genes <- read_excel("acylRACtotaldataset.xlsx")
 
 ```
@@ -16,6 +17,7 @@ The data analyzed here comes from an acyl-RAC experiment performed on Arabidopsi
 ```{r echo=FALSE}
 #list number of proteins per cellular location
 #new dataframe with unique subacon and number of genes associated with them
+#way to remove number of rows?
 df <- data.frame(matrix(ncol = 2, nrow = 0))
 colnames(df) <- c('subcellular location', 'genes')
 for (cell_location in unique(genes$SubaCon)){
@@ -24,7 +26,8 @@ for (cell_location in unique(genes$SubaCon)){
   df[nrow(df) + 1,] = c(cell_location, gene_count)
   
 }
-df
+
+kable(df)
 
 ```
 
