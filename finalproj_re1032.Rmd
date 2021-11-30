@@ -3,6 +3,33 @@ title: "finalproj_re1032"
 
 ---
 
+```{r setup, include=FALSE}
+library(readxl)
+library(ggplot2)
+genes <- read_excel("acylRACtotaldataset.xlsx")
 
+```
 
 Data analysis and Final Project for Data Science for Life Sciences (Fall2021).
+
+The data analyzed here comes from an acyl-RAC experiment performed on Arabidopsis thaliana. Include explanation of what acyl-RAC is and palmitoylation.
+```{r echo=FALSE}
+#list number of proteins per cellular location
+#new dataframe with unique subacon and number of genes associated with them
+df <- data.frame(matrix(ncol = 2, nrow = 0))
+colnames(df) <- c('subcellular location', 'genes')
+for (cell_location in unique(genes$SubaCon)){
+  locations <- subset(genes, genes$SubaCon == cell_location) #subset dataframe of cellular location and genes in that location.
+  gene_count <- nrow(locations)
+  df[nrow(df) + 1,] = c(cell_location, gene_count)
+  
+}
+df
+
+```
+
+
+```{r}
+#venn diagram of locations. WIll require extreme restructuring of original database because of the SubaCon column format.
+```
+
