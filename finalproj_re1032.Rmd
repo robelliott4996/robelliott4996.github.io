@@ -32,7 +32,9 @@ kable(df)
 ```
 
 
-```{r}
-#venn diagram of locations. WIll require extreme restructuring of original database because of the SubaCon column format.
+```{r echo=FALSE}
+#venn diagram of locations. Will require extreme restructuring of original database because of the SubaCon column format.
+
+
 ```
 
