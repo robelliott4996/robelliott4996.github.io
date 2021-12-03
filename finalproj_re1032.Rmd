@@ -19,7 +19,7 @@ The data analyzed here comes from an acyl-RAC experiment performed on Arabidopsi
 #new dataframe with unique subacon and number of genes associated with them
 #way to remove number of rows?
 df <- data.frame(matrix(ncol = 2, nrow = 0))
-colnames(df) <- c('subcellular location', 'genes')
+colnames(df) <- c('Subcellular Location', 'Gene Counts')
 for (cell_location in unique(genes$SubaCon)){
   locations <- subset(genes, genes$SubaCon == cell_location) #subset dataframe of cellular location and genes in that location.
   gene_count <- nrow(locations)
@@ -33,8 +33,18 @@ kable(df)
 
 
 ```{r echo=FALSE}
-#venn diagram of locations. Will require extreme restructuring of original database because of the SubaCon column format.
+#MapMin code 1. Range of codes 0-50
 
+df2 <- data.frame(matrix(ncol = 2, nrow = 0))
+colnames(df2) <- c('MapMan description', 'Gene counts')
+for (code in unique(genes$`MapMan Bin1 Desc`)){
+  process <- subset(genes, genes$`MapMan Bin1 Desc` == code) #subset dataframe of cellular location and genes in that location.
+  gene_count <- nrow(process)
+  df2[nrow(df2) + 1,] = c(code, gene_count)
+  
+}
+
+kable(df2)
 
 ```
-
+Important to note that this data from Arabidopsis, which is why we see things like 'Cell wall' and 'Phytohormones'. But also note that there's a significant number of genes that aren't assigned to any process. 
