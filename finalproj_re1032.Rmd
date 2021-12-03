@@ -7,6 +7,7 @@ title: "finalproj_re1032"
 library(readxl)
 library(ggplot2)
 library(knitr)
+library(gprofiler2)
 genes <- read_excel("acylRACtotaldataset.xlsx")
 
 ```
@@ -34,6 +35,7 @@ kable(df)
 
 ```{r echo=FALSE}
 #MapMin code 1. Range of codes 0-50
+
 
 df2 <- data.frame(matrix(ncol = 2, nrow = 0))
 colnames(df2) <- c('MapMan description', 'Gene counts')
