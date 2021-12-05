@@ -50,3 +50,14 @@ kable(df2)
 
 ```
 Important to note that this data from Arabidopsis, which is why we see things like 'Cell wall' and 'Phytohormones'. But also note that there's a significant number of genes that aren't assigned to any process. 
+
+
+```{r echo=FALSE}
+
+
+
+```
+
+
+
+
