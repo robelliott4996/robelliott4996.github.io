@@ -9,6 +9,7 @@ library(ggplot2)
 library(knitr)
 library(gprofiler2)
 genes <- read_excel("acylRACtotaldataset.xlsx")
+goterms <- 
 
 ```
 
