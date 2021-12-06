@@ -57,7 +57,7 @@ for (code in unique(genes$`MapMan Bin1 Desc`)){
 kable(df2, caption = "Table of MapMan descriptors and Associated Protein Counts")
 
 ```
-Important to note that this data from Arabidopsis, which is why we see things like 'Cell wall' and 'Phytohormones'. But also note that there's a significant number of genes that aren't assigned to any process. 
+
 
 
 ```{r echo=FALSE, fig.cap="Number of Predicted Transmembrane Helices of Acylated Proteins"}
@@ -66,6 +66,6 @@ ggplot(data=genes, aes(x=TMH)) + geom_bar() + geom_text(aes(label = ..count..), 
 
 ```
 
-
+The above graph illustrates an important aspect of palmitoylation and membrane association. Transmembrane helices(TMH) are naturally occurring structures that favor insertion into lipid membranes and as such can become membrane associated without palmitoylation. The more TMH present in a protein, the strong the association to the point where some proteins do not assume their active conformation until they've inserted into a membrane. We see above that the overwhelming majority of proteins have no TMH, and would thus require palmitoylation in order to become membrane associated. 
 
 
