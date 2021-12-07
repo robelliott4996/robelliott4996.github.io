@@ -17,9 +17,11 @@ goterms <- read.delim2("ATH_GO_GOSLIM.txt", header = FALSE)
 
 # Data analysis and Final Project for Data Science for Life Sciences (Fall2021).
 ### Background of Palmitoylation
-The data analyzed here comes from an acyl-RAC experiment performed on *Arabidopsis thaliana*, a plant model organism. Acyl-RAC, or acyl-resin assisted capture, is a protein purification method that captures S-acylated proteins. S-acylation, or palmitoylation, is a form of post-translational modification where a 16 carbon fatty acid, palmitate, is attached to a surface exposed serine residue. Because palmitate is significantly hydrophobic, this pushes the protein to favor attachment to a lipid membrane, with the palmitate group inserted into the lipid layer. 
+The data analyzed here comes from an acyl-RAC experiment performed on *Arabidopsis thaliana*, a plant model organism. Acyl-RAC, or acyl-resin assisted capture, is a protein purification method that captures S-acylated proteins. S-acylation, or palmitoylation, is a form of post-translational modification where a 16 carbon fatty acid, palmitate, is attached to a surface exposed serine residue. Because palmitate is significantly hydrophobic, this pushes the protein to favor attachment to a lipid membrane, with the palmitate group inserted into the lipid layer. This process is carried out by a family of enzymes called palmitoyl acyltransferases and their inverse enzyme, thioesterases.
 
 ![Palmitoylation can localize an otherwise cytosolic protein to a membrane](palmitoylation_noTMH_mechanism.png)
+![Palmitoylation Mechanism](images/palmitoylationmechanism.png)
+
 
 Here, the authors identified 5262 unique palmitoylated proteins. Further, 12,419 modified cysteines were identified in those proteins. 
 
