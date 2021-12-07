@@ -15,13 +15,17 @@ goterms <- read.delim2("ATH_GO_GOSLIM.txt", header = FALSE)
 
 ```
 
-Data analysis and Final Project for Data Science for Life Sciences (Fall2021).
-
+# Data analysis and Final Project for Data Science for Life Sciences (Fall2021).
+### Background of Palmitoylation
 The data analyzed here comes from an acyl-RAC experiment performed on *Arabidopsis thaliana*, a plant model organism. Acyl-RAC, or acyl-resin assisted capture, is a protein purification method that captures S-acylated proteins. S-acylation, or palmitoylation, is a form of post-translational modification where a 16 carbon fatty acid, palmitate, is attached to a surface exposed serine residue. Because palmitate is significantly hydrophobic, this pushes the protein to favor attachment to a lipid membrane, with the palmitate group inserted into the lipid layer. 
 
 ![Palmitoylation can localize an otherwise cytosolic protein to a membrane](palmitoylation_noTMH_mechanism.png)
 
-Here, the authors identified 5262 unique proteins. 
+Here, the authors identified 5262 unique palmitoylated proteins. 
+
+
+### Some Tables to Illustrate the Data
+
 
 Below is a table of predicted subcellular locations and the number of genes from the dataset that are predicted to occupy them. These locations are determined using SUBAcon, the SUBcellular Arabidopsis consensus algorithm. At the bottom, some proteins are predicted to have more than one location; though the significant majority of them occupy a single location in the cell. Nine of these proteins have no prediction noted. 
 ```{r echo=FALSE}
@@ -58,7 +62,7 @@ kable(df2, caption = "Table of MapMan descriptors and Associated Protein Counts"
 
 ```
 
-
+### Heading to the Bar (graphs)
 
 ```{r echo=FALSE, fig.cap="Number of Predicted Transmembrane Helices of Acylated Proteins"}
 
@@ -76,3 +80,8 @@ nottmhor1 <- subset(notmh, notmh$TMH != 1)
 ggplot(data=nottmhor1, aes(x=TMH, fill = SubaCon)) + geom_bar(show.legend = FALSE) + geom_text(aes(label = ..count..), stat= 'count') 
 
 ```
+
+
+
+
+###### Bibliography Here
