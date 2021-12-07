@@ -21,7 +21,7 @@ The data analyzed here comes from an acyl-RAC experiment performed on *Arabidops
 
 ![Palmitoylation can localize an otherwise cytosolic protein to a membrane](palmitoylation_noTMH_mechanism.png)
 
-Here, the authors identified 5262 unique palmitoylated proteins. 
+Here, the authors identified 5262 unique palmitoylated proteins. Further, 12,419 modified cysteines were identified in those proteins. 
 
 
 ### Some Tables to Illustrate the Data
@@ -82,6 +82,6 @@ ggplot(data=nottmhor1, aes(x=TMH, fill = SubaCon)) + geom_bar(show.legend = FALS
 ```
 
 
-
+### GO term analysis
 
 ###### Bibliography Here
