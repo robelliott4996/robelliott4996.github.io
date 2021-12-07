@@ -6,3 +6,6 @@ title: "Rocks"
 Some rocks that probably aren't named Dwanye. Or they could all be named Dwayne, not sure.
 
 I don't speak rock.
+
+
+![rock tower](images/rocktower.jpg)
