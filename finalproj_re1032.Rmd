@@ -70,7 +70,7 @@ ggplot(data=genes, aes(x=TMH)) + geom_bar() + geom_text(aes(label = ..count..), 
 
 ```
 
-The above graph illustrates an important aspect of palmitoylation and membrane association. Transmembrane helices(TMH) are naturally occurring structures that favor insertion into lipid membranes and as such can become membrane associated without palmitoylation. The more TMH present in a protein, the strong the association to the point where some proteins do not assume their active conformation until they've inserted into a membrane. We see above that the overwhelming majority of proteins have no TMH, and would thus require palmitoylation in order to become membrane associated. 
+The above graph illustrates an important aspect of palmitoylation and membrane association. Transmembrane helices(TMH) are naturally occurring structures that favor insertion into lipid membranes and as such can become membrane associated without palmitoylation. The more TMH present in a protein, the stronger the association to the point where some proteins do not assume their active conformation until they've inserted into a membrane. We see above that the overwhelming majority of proteins have no TMH, and would thus require palmitoylation in order to become membrane associated. Proteins with TMH would might require palmitoylation for some form of catalysis control. 
 
 
 ```{r echo=FALSE, fig.cap="Number of Predicted Transmembrane Helices of Acylated Proteins excluding those with No or only 1 TMH"}
@@ -83,5 +83,7 @@ ggplot(data=nottmhor1, aes(x=TMH, fill = SubaCon)) + geom_bar(show.legend = FALS
 
 
 ### GO term analysis
+
+
 
 ###### Bibliography Here
