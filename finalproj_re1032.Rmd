@@ -11,7 +11,7 @@ library(gprofiler2)
 library(dplyr)
 genes <- read_excel("acylRACtotaldataset.xlsx")
 colnames(genes)[9] <- "TMH"
-goterms <- read.delim2("ATH_GO_GOSLIM.txt", header = FALSE)
+
 
 ```
 
