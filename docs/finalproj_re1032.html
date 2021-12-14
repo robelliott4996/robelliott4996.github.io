@@ -283,7 +283,7 @@ $(document).ready(function () {
 </div>
 <div id="some-tables-to-illustrate-the-data" class="section level3">
 <h3>Some Tables to Illustrate the Data</h3>
-<p>Below is a table of predicted subcellular locations and the number of genes from the dataset that are predicted to occupy them. These locations are determined using SUBAcon, the SUBcellular Arabidopsis consensus algorithm. At the bottom, some proteins are predicted to have more than one location; though the significant majority of them occupy a single location in the cell. Nine of these proteins have no prediction noted.</p>
+<p>Below is a table of predicted subcellular locations and the number of genes from the dataset that are predicted to occupy them. These locations are determined using SUBAcon, the SUBcellular Arabidopsis consensus algorithm. At the bottom, some proteins are predicted to have more than one location; though the significant majority of them occupy a single location in the cell. Nine of these proteins have no prediction noted. I hesitate to assign strong support to these algorithm defined locations; if palmitoylation commonly changes the subcellular location of a protein then a single predicted location misses an extremely large depth of information.</p>
 <table>
 <caption>Table of Subcellular Protein locations as determined by SUBAcon</caption>
 <thead>
@@ -601,6 +601,8 @@ Number of Predicted Transmembrane Helices of Acylated Proteins excluding those w
 </p>
 </div>
 <p>However, when the proteins are separated by number of TMH and colored by subcellular location, the variation between conditions is negligible.</p>
+<p><img src="finalproj_re1032_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p>We see that above, when proteins are graphed according to subcellular location and then filled by number of TMH, that there is still an fairly even spread across all categories. If there is some overall defining characteristic of these proteins, it’s not in their cellular location, or in the number of transmembrane helices.</p>
 <div id="bibliography-here" class="section level6">
 <h6>Bibliography Here</h6>
 </div>

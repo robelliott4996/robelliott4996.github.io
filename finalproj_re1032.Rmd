@@ -29,7 +29,9 @@ Here, the authors identified 5262 unique palmitoylated proteins. Further, 12,419
 ### Some Tables to Illustrate the Data
 
 
-Below is a table of predicted subcellular locations and the number of genes from the dataset that are predicted to occupy them. These locations are determined using SUBAcon, the SUBcellular Arabidopsis consensus algorithm. At the bottom, some proteins are predicted to have more than one location; though the significant majority of them occupy a single location in the cell. Nine of these proteins have no prediction noted. 
+Below is a table of predicted subcellular locations and the number of genes from the dataset that are predicted to occupy them. These locations are determined using SUBAcon, the SUBcellular Arabidopsis consensus algorithm. At the bottom, some proteins are predicted to have more than one location; though the significant majority of them occupy a single location in the cell. Nine of these proteins have no prediction noted. I hesitate to assign strong support to these algorithm defined locations; if palmitoylation commonly changes the subcellular location of a protein then a single predicted location misses an extremely large depth of information. 
+
+
 ```{r echo=FALSE}
 #list number of proteins per cellular location
 #new dataframe with unique subacon and number of genes associated with them
@@ -86,6 +88,16 @@ ggplot(data=nottmhor1, aes(x=TMH, fill = SubaCon)) + geom_bar(show.legend = FALS
 
 However, when the proteins are separated by number of TMH and colored by subcellular location, the variation between conditions is negligible. 
 
+```{r echo=FALSE}
+notmh <- subset(genes, genes$TMH != 'NA')
+nottmhor1 <- subset(notmh, notmh$TMH != 1)
+#need to make a subset of the data wihtout entries where TMH = NA and use that for the below instead
+ggplot(data=nottmhor1, aes(x=SubaCon, fill = TMH)) + geom_bar(show.legend = FALSE) + theme(legend.key.size = unit(0.01, "cm"), legend.position = "bottom", axis.text.x = element_blank()) 
 
+
+```
+
+
+We see that above, when proteins are graphed according to subcellular location and then filled by number of TMH, that there is still an fairly even spread across all categories. If there is some overall defining characteristic of these proteins, it's not in their cellular location, or in the number of transmembrane helices. 
 
 ###### Bibliography Here
