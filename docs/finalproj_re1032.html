@@ -56,6 +56,28 @@ if (window.hljs) {
 
 
 
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 
 
@@ -277,7 +299,7 @@ $(document).ready(function () {
 <h1>Data analysis and Final Project for Data Science for Life Sciences (Fall2021).</h1>
 <div id="background-of-palmitoylation" class="section level3">
 <h3>Background of Palmitoylation</h3>
-<p>The data analyzed here comes from an acyl-RAC experiment performed on <em>Arabidopsis thaliana</em>, a plant model organism. Acyl-RAC, or acyl-resin assisted capture, is a protein purification method that captures S-acylated proteins. S-acylation, or palmitoylation, is a form of post-translational modification where a 16 carbon fatty acid, palmitate, is attached to a surface exposed serine residue. Because palmitate is significantly hydrophobic, this pushes the protein to favor attachment to a lipid membrane, with the palmitate group inserted into the lipid layer. This process is carried out by a family of enzymes called palmitoyl acyltransferases and their inverse enzyme, thioesterases.</p>
+<p>The data analyzed here comes from an acyl-RAC experiment performed on <em>Arabidopsis thaliana</em>, a plant model organism(<span class="citation">Kumar, Carr, and Turner (2020)</span>). Acyl-RAC, or acyl-resin assisted capture, is a protein purification method that captures S-acylated proteins. S-acylation, or palmitoylation, is a form of post-translational modification where a 16 carbon fatty acid, palmitate, is attached to a surface exposed serine residue. Because palmitate is significantly hydrophobic, this pushes the protein to favor attachment to a lipid membrane, with the palmitate group inserted into the lipid layer. This process is carried out by a family of enzymes called palmitoyl acyltransferases and their inverse enzyme, thioesterases.</p>
 <p><img src="palmitoylation_noTMH_mechanism.png" alt="Palmitoylation can localize an otherwise cytosolic protein to a membrane" /> <img src="images/palmitoylationmechanism.png" alt="Palmitoylation Mechanism" /></p>
 <p>Here, the authors identified 5262 unique palmitoylated proteins. Further, 12,419 modified cysteines were identified in those proteins.</p>
 </div>
@@ -603,10 +625,18 @@ Number of Predicted Transmembrane Helices of Acylated Proteins excluding those w
 <p>However, when the proteins are separated by number of TMH and colored by subcellular location, the variation between conditions is negligible.</p>
 <p><img src="finalproj_re1032_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
 <p>We see that above, when proteins are graphed according to subcellular location and then filled by number of TMH, that there is still an fairly even spread across all categories. If there is some overall defining characteristic of these proteins, it’s not in their cellular location, or in the number of transmembrane helices.</p>
-<div id="bibliography-here" class="section level6">
-<h6>Bibliography Here</h6>
 </div>
 </div>
+<div id="references" class="section level1">
+<h1>References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Kumar2020" class="csl-entry">
+Kumar, Manoj, Paul Carr, and Simon Turner. 2020. <span>“<span class="nocase">An atlas of Arabidopsis protein S-Acylation reveals its widespread role in plant cell organisation of and function.</span>”</span> <em>bioRxiv</em>. <a href="https://doi.org/10.1101/2020.05.12.090415">https://doi.org/10.1101/2020.05.12.090415</a>.
+</div>
+</div>
+</div>
+<div id="appendix" class="section level1">
+<h1>Appendix</h1>
 </div>
 
 
