@@ -17,6 +17,10 @@ colnames(genes)[9] <- "TMH"
 ```
 
 # Data analysis and Final Project for Data Science for Life Sciences (Fall2021).
+
+https://github.com/robelliott4996/robelliott4996.github.io
+
+
 ### Background of Palmitoylation
 The data analyzed here comes from an acyl-RAC experiment performed on *Arabidopsis thaliana*, a plant model organism(@Kumar2020). Acyl-RAC, or acyl-resin assisted capture, is a protein purification method that captures S-acylated proteins. S-acylation, or palmitoylation, is a form of post-translational modification where a 16 carbon fatty acid, palmitate, is attached to a surface exposed serine residue. Because palmitate is significantly hydrophobic, this pushes the protein to favor attachment to a lipid membrane, with the palmitate group inserted into the lipid layer. This process is carried out by a family of enzymes called palmitoyl acyltransferases and their inverse enzyme, thioesterases.
 
