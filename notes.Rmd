@@ -9,4 +9,4 @@ When using rmarkdown to make websites with github, you need to Build the website
 
 Things to add to this website include: book recommendations, a CV page, pictures of rocks.
 
-My R Final Project as a separate page for viewing.
+Note to self: files are hosted on github. My local working directory is in my OneDrive in my R related folder. Might be beneficial to change that at some point to main Onedrive folder.
