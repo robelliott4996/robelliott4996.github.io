@@ -1,0 +1,31 @@
+---
+title: "Robert Elliott"
+
+output: html_document
+---
+
+
+Cell Number: 207-219-4720 Email: robelliott4996@gmail.com
+
+## **Education**
+
+University of New England, 2018. Bachelors of Science in Biochemistry
+
+Minors in Mathematics and Biology
+
+
+## **Employment**
+
+MMQCI
+
+UNH
+
+## **Research Experience**
+
+Balog Lab
+
+Hrabak Lab
+
+##### **Technical Experience and Skills**
+
+## **Conferences and Symposium Presentations**

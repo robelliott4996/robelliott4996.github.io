@@ -4,3 +4,5 @@ title: "My (Robert) Website"
 
 Hello, World.
 This will serve as a repository of interesting media I've collected, CV's, resumes, possibly even a blog or two.
+
+Note to self: files are hosted on github. My local working directory is in my OneDrive in my R related folder. Might be beneficial to change that at some point to main Onedrive folder.

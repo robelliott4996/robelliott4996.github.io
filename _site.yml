@@ -13,6 +13,8 @@ navbar:
       href: notes.html
     - text: "Final Project"
       href: finalproj_re1032.html
+    - text: "CV"
+      href: robertelliottcv.html
 output:
   html_document:
     theme: cosmo
