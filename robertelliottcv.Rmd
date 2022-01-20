@@ -1,7 +1,6 @@
 ---
 title: "Robert Elliott"
 
-output: html_document
 ---
 
 
