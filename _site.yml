@@ -5,14 +5,16 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Photography"
+      href: photography.html
     - text: "Rocks"
       href: rocks.html
-    - text: "About"
-      href: about.html
     - text: "Notes"
       href: notes.html
     - text: "CV"
       href: robertelliottcv.html
+    - text: "About"
+      href: about.html      
 output:
   html_document:
     theme: cosmo
