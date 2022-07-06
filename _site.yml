@@ -7,8 +7,6 @@ navbar:
       href: index.html
     - text: "Photography"
       href: photography.html
-    - text: "Rocks"
-      href: rocks.html
     - text: "Notes"
       href: notes.html
     - text: "CV"
