@@ -2,7 +2,7 @@ name: "A Collection of Slightly-Lower-than-Room-Temperature Rocks"
 output_dir: "docs"
 navbar:
   title: "A Collection of Slightly-Lower-than-Room-Temperature Rocks"
-  left:
+  right:
     - text: "Home"
       href: index.html
     - text: "Photography"
@@ -13,7 +13,7 @@ navbar:
       href: robertelliottcv.html
     - text: "About"
       href: about.html      
-output:
-  html_document:
-    theme: cosmo
-    hightlight: textmate
+output: rmdformats::readthedown
+#  html_document:
+#    theme: cosmo
+#    hightlight: textmate
