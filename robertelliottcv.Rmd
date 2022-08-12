@@ -8,22 +8,74 @@ Email: robelliott4996@gmail.com
 
 ## **Education**
 
-University of New England, 2018. Bachelors of Science in Biochemistry
+University of New England, Class of 2018, Bachelor of Science in Biochemistry
 
-Minors in Mathematics and Biology
+Minors in Applied Mathematics and Biology
 
 
 ## **Employment**
 
-MMQCI
+### University of New Hampshire
 
-UNH
+August 2020 - Current
+
+Durham, New Hampshire
+
+Graduate Teaching Assistant
+
+Educated students on key biochemistry related topics and techniques including: quantitative pipetting, pH measurement and adjustment, protein expression, purification, and quantitation.
+
+Course work introduced students to the basics of DNA manipulation, protein expression and purification, protein modeling with computer software, enzyme reactions, and experimental design.
+
+Employed AKTA Start and Frac30 for protein purification using affinity and gel filtration columns.
+
+Semesters taught include: 3 semesters of General Biochemistry Lab and 1 semester of Protein Biochemistry Lab
+
+
+
+### Maine Molecular Quality Control, Inc
+
+June 2018 - August 2020
+
+Saco, Maine
+
+Formulations Assistant 1
+
+Preparation of reagents and providing support to the Manufacturing MMQCI team by performing a wide variety of laboratory-based tasks according to established written procedures.
+
+Manufacture materials include buffers, reagents, and solutions in scales ranging from 10 ml to 10 liters; employs pH meters, balances, autoclaves, peristaltic pumps, vacuum pumps, filtering apparatus, and laboratory mixing equipment all in accordance with aseptic techniques and clean room procedures.
+
+Perform environmental monitoring for the clean room lab area, including particle
+counts, air sampling for viable particles, water sampling for bacteria and contact plates.
+Perform periodic lab equipment maintenance including cleaning freezers and refrigerators, centrifuges, and production rooms.
+
+Trained new employees on Formulations Assistant responsibilities and techniques.
+
 
 ## **Research Experience**
 
-Balog Lab
+**Hrabak Lab**  
+Dr. Estelle Hrabak lab; University of New Hampshire  
+Developed Bioinformatic pipelines via Python that identify and sort possible enzyme substrates of Palmitoyl Acyltransferase 14 (PAT14) in *Arabidopsis thaliana*  
+Employed R to generate graphs of plant biomass, water content, and disease measure  
+Produced novel research on the effects of environmental conditions on PAT14-knockout induced early death including: Fertilizer, Sterile environment, and Growth substrate  
+Isolated and quantified membrane and soluble proteins from total plant tissue extracts  
+Qualitatively measured palmitoylation state of target proteins  
 
-Hrabak Lab
+**Balog Lab**  
+Dr. Eva Rose Balog Lab; University of New England  
+Perform genetic and molecular cloning experiments for the design and production of novel protein-based bio-materials.
+
+Employing Dynamic Light Scattering microscopy for characterization of elastin-like polymer coaccervation.
+
+Awarded two research grants- SURE(2016 and 2017)  
+Programs: LoggerPro, SyStat, PyMol, Bio Rad’s Image Lab  
+Microsoft Programs include: PowerPoint, Excel, and Word  
+
+Bacterial transformation and growth of *E.coli* cells: SHuffle, BL21 (DE3), and DH5α  
+Protein expression, extraction, and isolation: Temperature cycling, Freeze-Thaw and Sonication methods  
+PCR and Inverse PCR, agarose and polyacrylamide gel electrophoresis, Western blotting, buffer solution preparation, RNA isolation, cDNA generation, BCA assays, Cell Culture, ligation and non-ligation based molecular cloning (Circular Polymerase Extension Cloning), ELISA  
+
 
 ##### **Technical Experience and Skills**
 
